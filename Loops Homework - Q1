@@ -1,0 +1,10 @@
+numbers = [12, 75, 150, 180, 145, 525, 50]
+
+for items in range(len(numbers)-1):
+    result = numbers[items]
+
+    if result % 5 == 0 and result <= 150:
+        print(numbers[items])
+
+    if result > 500:
+        exit()
