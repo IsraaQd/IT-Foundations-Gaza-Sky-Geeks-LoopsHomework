@@ -1,0 +1,9 @@
+given_number = int(input("Enter a whole number: "))
+reversed_number = 0
+
+while given_number != 0:
+    digit = given_number % 10
+    reversed_number = reversed_number * 10 + digit
+    given_number //= 10
+
+print("Reversed Number: " + str(reversed_number))
