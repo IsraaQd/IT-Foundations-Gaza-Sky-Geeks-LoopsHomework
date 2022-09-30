@@ -1,0 +1,5 @@
+tuple1 = (10, 20, 30, 40, 50)
+print(tuple1)
+tuple2 = list(tuple1)
+tuple2.reverse()
+print("Numbers reversed: ", tuple2)
