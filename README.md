@@ -6,7 +6,7 @@ Assignment 5
 
 # First:Loops:-
 
-1_ Display numbers from a list using a loop
+* 1_ Display numbers from a list using a loop
 Write a program to display only those numbers from a list that satisfy the following conditions
 The number must be divisible by five
 If the number is greater than 150, then skip it and move to the next number
@@ -20,7 +20,7 @@ Expected output:
 145
 
 
-2_ Use else block to display a message “Done” after successful execution of for loop
+* 2_ Use else block to display a message “Done” after successful execution of for loop
 For example, the following loop will execute without any error.
 Given:
 for i in range(5):
@@ -35,7 +35,7 @@ Expected output:
 Done!
  
  
-3_Reverse a given integer number
+* 3_Reverse a given integer number
 Given:
 76542
 Expected output:
@@ -47,7 +47,7 @@ Expected output:
  
  
 # Second: Dict:-
-1: Convert two lists into a dictionary
+* 1: Convert two lists into a dictionary
 Below are the two lists. Write a Python program to convert them into a dictionary in a way that item from list1 is the key and item from list2 is the value
 keys = ['Ten', 'Twenty', 'Thirty']
 values = [10, 20, 30]
@@ -55,7 +55,7 @@ Expected output:
 {'Ten': 10, 'Twenty': 20, 'Thirty': 30}
  
  
-2: Delete a list of keys from a dictionary
+* 2: Delete a list of keys from a dictionary
 Given:
 sample_dict = {
     "name": "Kelly",
@@ -74,7 +74,7 @@ Expected output:
  
 # Third: Sets:-
 
-1: Add a list of elements to a set
+* 1: Add a list of elements to a set
 Given a list, write a program to add all its elements into a given set.
 Given:
 sample_set = {"Yellow", "Orange", "Black"}
@@ -84,7 +84,7 @@ Note: Set is unordered.
 {'Green', 'Yellow', 'Black', 'Orange', 'Red', 'Blue'}
  
  
-2: Return a new set of identical items from two sets
+* 2: Return a new set of identical items from two sets
 Given:
 set1 = {10, 20, 30, 40, 50}
 set2 = {30, 40, 50, 60, 70}
@@ -94,13 +94,13 @@ Expected output:
  
  
 # Fourth: Tuples:-
-1: Reverse the tuple
+* 1: Reverse the tuple
 Given:
 tuple1 = (10, 20, 30, 40, 50)
 Expected output:
 (50, 40, 30, 20, 10)
  
-2: Access value 20 from the tuple
+* 2: Access value 20 from the tuple
 The given tuple is a nested tuple. write a Python program to print the value 20.
 Given:
 tuple1 = ("Orange", [10, 20, 30], (5, 15, 25))
@@ -108,13 +108,13 @@ Expected output:
 20
  
  
-3: Unpack the tuple into 4 variables
+* 3: Unpack the tuple into 4 variables
 Write a program to unpack the following tuple into four variables and display each variable.
 Given:
 tuple1 = (10, 20, 30, 40)
 Expected output:
 tuple1 = (10, 20, 30, 40)
-* Your code
+Your code
 print(a) # should print 10
 print(b) # should print 20
 print(c) # should print 30
