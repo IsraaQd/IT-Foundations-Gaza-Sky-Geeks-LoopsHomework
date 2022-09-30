@@ -1,0 +1,5 @@
+tuple1 = (10, 20, 30, 40)
+list(tuple1)
+for i in tuple1:
+    index = tuple1.index(i)
+    print(tuple1[index])
