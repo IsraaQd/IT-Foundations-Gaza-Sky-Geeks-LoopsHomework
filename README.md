@@ -6,27 +6,27 @@ Assignment 5
 
 # First:Loops:-
 
-* 1_ Display numbers from a list using a loop
+## 1_ Display numbers from a list using a loop
 Write a program to display only those numbers from a list that satisfy the following conditions
 The number must be divisible by five
 If the number is greater than 150, then skip it and move to the next number
 If the number is greater than 500, then stop the loop
-Given:
+> Given:
 numbers = [12, 75, 150, 180, 145, 525, 50]
 
-Expected output:
+> Expected output:
 75
 150
 145
 
 
-* 2_ Use else block to display a message “Done” after successful execution of for loop
+## 2_ Use else block to display a message “Done” after successful execution of for loop
 For example, the following loop will execute without any error.
-Given:
+> Given:
 for i in range(5):
     print(i)
  
-Expected output:
+> Expected output:
 0
 1
 2
@@ -35,10 +35,10 @@ Expected output:
 Done!
  
  
-* 3_Reverse a given integer number
-Given:
+## 3_Reverse a given integer number
+> Given:
 76542
-Expected output:
+> Expected output:
 24567
  
  
@@ -47,16 +47,16 @@ Expected output:
  
  
 # Second: Dict:-
-* 1: Convert two lists into a dictionary
+## 1: Convert two lists into a dictionary
 Below are the two lists. Write a Python program to convert them into a dictionary in a way that item from list1 is the key and item from list2 is the value
-keys = ['Ten', 'Twenty', 'Thirty']
+> keys = ['Ten', 'Twenty', 'Thirty']
 values = [10, 20, 30]
-Expected output:
+> Expected output:
 {'Ten': 10, 'Twenty': 20, 'Thirty': 30}
  
  
-* 2: Delete a list of keys from a dictionary
-Given:
+## 2: Delete a list of keys from a dictionary
+> Given:
 sample_dict = {
     "name": "Kelly",
     "age": 25,
@@ -64,9 +64,9 @@ sample_dict = {
     "city": "New york"
 }
  
-Keys to remove
+> Keys to remove
 keys = ["name", "salary"]
-Expected output:
+> Expected output:
 {'city': 'New york', 'age': 25}
  
  
@@ -74,45 +74,45 @@ Expected output:
  
 # Third: Sets:-
 
-* 1: Add a list of elements to a set
+## 1: Add a list of elements to a set
 Given a list, write a program to add all its elements into a given set.
-Given:
+> Given:
 sample_set = {"Yellow", "Orange", "Black"}
 sample_list = ["Blue", "Green", "Red"]
-Expected output:
+> Expected output:
 Note: Set is unordered.
 {'Green', 'Yellow', 'Black', 'Orange', 'Red', 'Blue'}
  
  
-* 2: Return a new set of identical items from two sets
-Given:
+## 2: Return a new set of identical items from two sets
+> Given:
 set1 = {10, 20, 30, 40, 50}
 set2 = {30, 40, 50, 60, 70}
-Expected output:
+> Expected output:
 {40, 50, 30}
  
  
  
 # Fourth: Tuples:-
-* 1: Reverse the tuple
-Given:
+## 1: Reverse the tuple
+> Given:
 tuple1 = (10, 20, 30, 40, 50)
-Expected output:
+> Expected output:
 (50, 40, 30, 20, 10)
  
-* 2: Access value 20 from the tuple
+## 2: Access value 20 from the tuple
 The given tuple is a nested tuple. write a Python program to print the value 20.
-Given:
+> Given:
 tuple1 = ("Orange", [10, 20, 30], (5, 15, 25))
-Expected output:
+> Expected output:
 20
  
  
-* 3: Unpack the tuple into 4 variables
+## 3: Unpack the tuple into 4 variables
 Write a program to unpack the following tuple into four variables and display each variable.
-Given:
+> Given:
 tuple1 = (10, 20, 30, 40)
-Expected output:
+> Expected output:
 tuple1 = (10, 20, 30, 40)
 Your code
 print(a) # should print 10
