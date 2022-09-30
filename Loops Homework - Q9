@@ -1,0 +1,9 @@
+tuple1 = ("Orange", [10, 20, 30], (5, 15, 25))
+
+i = 0
+find = 20
+
+while i < len(tuple1):
+    if tuple1[i][i] == find:
+        print(find)
+    i = i + 1
