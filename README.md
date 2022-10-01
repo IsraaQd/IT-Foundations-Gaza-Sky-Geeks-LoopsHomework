@@ -4,7 +4,7 @@ Assignment 5: Loops homework
 
 # First:- ***Loops***
 
-## 1_ Display numbers from a list using a loop
+## 1: Display numbers from a list using a loop
 Write a program to display only those numbers from a list that satisfy the following conditions
 The number must be divisible by five
 If the number is greater than 150, then skip it and move to the next number
@@ -21,7 +21,7 @@ numbers = [12, 75, 150, 180, 145, 525, 50]
 145
 ```
 
-## 2_ Use else block to display a message “Done” after successful execution of for loop
+## 2: Use else block to display a message “Done” after successful execution of for loop
 For example, the following loop will execute without any error.
 > Given:
 ```
@@ -38,7 +38,7 @@ for i in range(5):
 Done!
 ```
  
-## 3_Reverse a given integer number
+## 3: Reverse a given integer number
 > Given:
 ```
 76542
