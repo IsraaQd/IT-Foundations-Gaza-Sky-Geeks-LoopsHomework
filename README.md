@@ -1,7 +1,7 @@
 # IT-Foundations-Gaza-Sky-Geeks-LoopsHomework
 Loops homework
-Assignment 5
 
+Assignment 5
 
 
 # First:Loops:-
