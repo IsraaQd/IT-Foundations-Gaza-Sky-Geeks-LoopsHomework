@@ -2,7 +2,7 @@
 Assignment 5: Loops homework
 
 
-# First:Loops:-
+# First:- ***Loops***
 
 ## 1_ Display numbers from a list using a loop
 Write a program to display only those numbers from a list that satisfy the following conditions
@@ -53,7 +53,7 @@ Done!
  
  
  
-# Second: Dict:-
+# Second:- ***Dict***
 ## 1: Convert two lists into a dictionary
 Below are the two lists. Write a Python program to convert them into a dictionary in a way that item from list1 is the key and item from list2 is the value
 > Given:
@@ -90,7 +90,7 @@ keys = ["name", "salary"]
  
  
  
-# Third: Sets:-
+# Third:- ***Sets***
 
 ## 1: Add a list of elements to a set
 Given a list, write a program to add all its elements into a given set.
@@ -118,7 +118,7 @@ set2 = {30, 40, 50, 60, 70}
  
  
  
-# Fourth: Tuples:-
+# Fourth:- ***Tuples***
 ## 1: Reverse the tuple
 > Given:
 ```
